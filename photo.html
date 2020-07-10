@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery</title>
+
+	<style type="text/css">
+		
+		*{
+			padding: 0px;
+			margin: 0px;
+
+		}
+		.header{
+			text-align: center;
+			background: brown;
+			font-size: 30px;
+			padding: 30px 30px 30px 30px;
+			color: white;
+			font-weight: bold; 
+		}
+		#midphoto{
+
+			padding: 20px 20px 20px 20px;
+			
+		}
+		h1{
+			
+			text-align:center;
+			margin-top:30px;
+			font-size:40px;
+			font-family: sans-serif;
+		}
+		.gallery{
+			height: 80%;
+			width: 100%;
+			
+			display:flex;
+			margin: 5% auto 0px;
+			box-sizing: border-box:
+		}
+		.imagebox{
+			margin:0px 1%;
+			flex-grow:1;
+			flex-basis:0;
+			transition:0.5s;
+			
+		}
+		.imagebox img{
+			width:100%;
+			height:100%;
+			object-fit: cover;
+			transition:0.5s;
+		}
+		.imagebox:hover{
+			flex-basis:50%;
+		}
+
+
+		.gallery:hover .active{
+			flex-basis:0;
+		}
+
+		.imagebox: nth-child(1): hover{
+			flex-basis:50%;
+		}
+		#footer{
+					
+					background:lightblue;
+					color: black;
+					text-align: center;
+					font-weight: bold;
+					font-size: 20px;
+					padding: 20px 20px 20px 20px;
+				}
+		a{
+			text-decoration: none;
+		}
+		#foot{
+			align-items: center;
+			text-align: center;
+			background: lightgreen;
+			color: black;
+			padding: 10px 10px 10px 10px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		Gallery
+	</div>
+	<div id="midphoto">
+ 	<!-- Cox's Bazar photo   -->
+
+
+		<h1><i>Trip to Cox's Bazar</i></h1>
+		<div class="gallery">
+			<div class="gallery">
+				<div class="imagebox">
+					<img src="cox/img1.jpg" alt="Trip to Cox's Bazar">
+				</div>
+				<div class="imagebox">
+					<img src="cox/img3.jpg" alt="Trip to Cox's Bazar">
+				</div>
+				<div class="imagebox">
+					<img src="cox/img4.jpg" alt="Trip to Cox's Bazar">
+				</div>
+				<div class="imagebox">
+					<img src="cox/img5.jpg" alt="Trip to Cox's Bazar">
+				</div>
+				<div class="imagebox">
+					<img src="cox/img6.jpg" alt="Trip to Cox's Bazar">
+				</div>
+				<div class="imagebox">
+					<img src="cox/img7.jpg" alt="Trip to Cox's Bazar">
+				</div>
+				<div class="imagebox">
+					<img src="cox/img8.jpg" alt="Trip to Cox's Bazar">
+				</div>
+				<div class="imagebox">
+					<img src="cox/img9.jpg" alt="Trip to Cox's Bazar">
+				</div>
+				<div class="imagebox">
+					<img src="cox/img10.jpg" alt="Trip to Cox's Bazar">
+				</div>
+				<div class="imagebox">
+					<img src="cox/img11.jpg" alt="Trip to Cox's Bazar">
+				</div>
+			</div>
+		</div>
+
+		<!-- Picnic -->
+		<h1><i>Departmental Picnic 2020</i></h1>
+		<div class="gallery">
+			<div class="gallery">
+				<div class="imagebox">
+					<img src="picnic/img.jpg" alt="Departmental Picnic 2020">
+				</div>
+				<div class="imagebox">
+					<img src="picnic/img1.jpg" alt="Departmental Picnic 2020">
+				</div>
+				<div class="imagebox">
+					<img src="picnic/img2.jpg" alt="Departmental Picnic 2020">
+				</div>
+				<div class="imagebox">
+					<img src="picnic/img3.jpg" alt="Departmental Picnic 2020">
+				</div>
+				<div class="imagebox">
+					<img src="picnic/img4.jpg" alt="Departmental Picnic 2020">
+				</div>
+				<div class="imagebox">
+					<img src="picnic/img5.jpg" alt="Departmental Picnic 2020">
+				</div>
+				<div class="imagebox">
+					<img src="picnic/img6.jpg" alt="Departmental Picnic 2020">
+				</div>
+				<div class="imagebox">
+					<img src="picnic/img7.jpg" alt="Departmental Picnic 2020">
+				</div>
+				
+			</div>
+		</div>
+
+		<!-- Patul -->
+
+		<h1><i>Patul Trip 2019</i></h1>
+		<div class="gallery">
+			<div class="gallery">
+
+				<div class="imagebox">
+					<img src="patul/img2.jpg" alt="Patul Trip 2019">
+				</div>
+				<div class="imagebox">
+					<img src="patul/img3.jpg" alt="Patul Trip 2019">
+				</div>
+				<div class="imagebox">
+					<img src="patul/img4.jpg" alt="Patul Trip 2019">
+				</div>
+				<div class="imagebox">
+					<img src="patul/img6.jpg" alt="Patul Trip 2019">
+				</div>
+				<div class="imagebox">
+					<img src="patul/img7.jpg" alt="Patul Trip 2019">
+				</div>
+				<div class="imagebox">
+					<img src="patul/img9.jpg" alt="Patul Trip 2019">
+				</div>
+				<div class="imagebox">
+					<img src="patul/img10.jpg" alt="Patul Trip 2019">
+				</div>
+				
+
+			</div>
+		</div>
+
+
+
+
+		<!-- Adobe -->
+			
+		<h1><i>Adobe Workshop</i></h1>
+		<div class="gallery">
+			<div class="imagebox">
+				<img src="adobe/img1.jpg" alt="Adobe Workshop">
+			</div>
+			<div class="imagebox">
+				<img src="adobe/img2.png" alt="Adobe Workshop">
+			</div>
+			<div class="imagebox">
+				<img src="adobe/img3.jpg" alt="Adobe Workshop">
+			</div>
+			<div class="imagebox">
+				<img src="adobe/img4.jpg" alt="Adobe Workshop">
+			</div>
+			<div class="imagebox">
+				<img src="adobe/img5.jpg" alt="Adobe Workshop">
+			</div>
+			<div class="imagebox">
+				<img src="adobe/img6.jpg" alt="Adobe Workshop">
+			</div>
+			<div class="imagebox">
+				<img src="adobe/img7.jpg" alt="Adobe Workshop">
+			</div>
+			<div class="imagebox">
+				<img src="adobe/img9.jpg" alt="Adobe Workshop">
+			</div>
+		</div>
+	</div>
+	<div id="foot">
+		<p><b>Go to page: </b></p> 
+		<a href="home.html">Home</a> | 
+		<a href="photo.html">Photo</a> | 
+		<a href="contact.html">Contact me</a> | 
+		<a href="about.html">More About Me</a>
+	</div>
+		<div id="footer">
+			<p><i>This website is created by Ariful Islam Sagor</i></p>
+		</div>
+
+</body>
+</html>
