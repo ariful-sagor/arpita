@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Arpita Snigdha's personal website</title>
+	<link rel="stylesheet" type="text/css" href="style11.css">
+	<style type="text/css">
+		@charset="utf-8";
+
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		a{
+			text-decoration: none;
+		}
+		#container{
+			background:white; 
+			color:white;
+			margin:0px 0px 0px 0px;
+			padding: 0px;
+			border:1px solid black;
+		}
+		#header{
+			background: brown;
+			color:white;
+			padding: 0px;
+			text-align:center;
+			padding: 30px 0px;
+		}
+		ul{
+			list-style: none;
+		}
+		#navigation{
+			background: #FFFACD;
+			align-items: center;
+			justify-content: space-between;
+		}
+		ul li{
+			color:black;
+			padding: 0px;
+			text-align:center;
+			padding: 20px 20px;
+
+
+
+		}
+		ul li:hover{
+			font-size:20px; 
+			background: silver;
+			transition: background 1s;
+		}
+		#middle{
+			display: flex;
+			flex-direction: row;
+			text-align: left;
+			padding: 0px;
+			color: black;
+			background: #E0FFFF;
+		}
+		#footer{
+			
+			background:lightblue;
+			color: black;
+			text-align: center;
+			font-weight: bold;
+			font-size: 15px;
+			padding: 50px 30px 30px 30px;
+		}
+		#image{
+			padding: 0px 0px 0px 0px;
+			widows:70%;
+		}
+		#left{
+			width: 60%;
+		}
+		#left img{
+			width: 100%;
+		}
+		#right{
+			width: 40%;
+			font-size: 25px; 
+			padding: 10px 10px 10px 10px;
+			width: 40%;
+			
+		}
+		@media screen and (max-width:1024px) {
+			#middle{
+				display: flex;
+				text-align: left;
+
+			}
+			#left img{
+				width: 100%;
+			}
+
+    }
+	</style>
+
+
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Welcome to my website</h1>
+		</div>
+		<div id="navigation">
+			<ul>
+				<a href="home.html"><li id="home">Home</li></a>
+				<a href="photo.html"><li id="photo">Photo</li></a>
+				<a href="contact.html"><li id="contact">Contact</li></a>
+				<a href="about.html"><li id="details">More About Me</li></a>
+				<a href="game.html"><li id="details">Game</li></a>
+			</ul>
+		</div>
+		<div id="middle">
+			<div id="left">
+				<img id="image" src="a1.jpg" alt="Photo of Arpita" height="600px" width="800px">
+			</div>
+			<div id="right">
+				<i>
+				<p>Hello! I'm Arpita Sarker Snigdha. Currently studying Mechatronics engineering at Rajshahi University of Engineering & Technology (RUET). Like to work with Microsoft Excel and PowerPoint, draw 3D objects in Solidworks and photo editing in Adobe Illustrator. Interested about Biomedical Engineering. Had a lots of difficult experiences in my university life and still have much patience to face them in future. Learning many tools and working on becoming a quick learner and cheerful engineer.</p>
+			</i>
+			</div>
+		</div>
+		<div id="footer">
+			<p><i>This website is created by Ariful Islam Sagor</i></p>
+		</div>
+	</div>
+
+
+</body>
+</html>
